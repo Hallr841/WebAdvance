@@ -1,0 +1,312 @@
+body{ margin:0; padding: 0;
+
+}
+
+header{
+	height:275px;
+}
+
+header a.logo{
+
+  display: block;
+  position:relative;
+  width: 380px;
+  height: 300px;
+  left: 25%;
+  bottom:40% ;
+  background-image: url(.././img/logo.svg);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+header ul.loginandcart 
+{ 
+  width:150px;
+  height:25px;
+  left:79%;
+  top:5px;
+  position: absolute;
+  color: #959a9c;
+}
+
+nav{
+
+	top:240px;
+	width: 510px;
+	display: block;
+	left: 25%;
+	position: absolute;
+	border-top:  1px solid #959a9c;
+	border-bottom:1px solid #959a9c ;
+}
+
+ nav a{	
+ 	margin: 0px 50px 0px 50px;
+ 	font-size: 1.1em ;
+
+}
+
+
+ div#main{
+  padding: 40px 0px 0px 0px ;
+}
+ 
+
+ .shop {
+   left: 50px;
+ 	 padding: 10px  20px 15px 30px;
+   position: relative;
+ }
+
+ .items ul{
+   
+ 	width: 33%;
+ 	float:left;
+ 	background-position: 0px 3px;
+ 	display: inline;
+}
+
+ .items li{
+ 	width: 33%;
+  position: relative;
+ 	display: inline-block;
+ }
+ 
+
+.loginandcart li{ 
+	display: inline;
+	list-style: none;
+	margin: 15px
+}
+    
+  #featureditems{
+    width: 700px;
+    height:400px;
+    background-color: #4C4A43;
+    position: relative;
+    left: 100px;
+    margin: 40px 120px 50px;
+  }
+
+
+  div#featured{
+    width: 600px;
+    height:400px;
+    position: absolute;
+    right: 35%;
+    background-image: url(.././img/shirt.jpeg);
+   background-position: 0px 0px;
+    background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+ div#about{
+    width: 700px;
+    height:400px;
+    position: absolute;
+    right: 35%;
+    background-image: url(.././img/shop.jpg);
+   background-position: 0px 0px;
+    background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+div#contact{
+    width: 600px;
+    height:400px;
+    position: absolute;
+    right: 35%;
+    background-image: url(.././img/contactimg.jpg);
+   background-position: 0px 0px;
+    background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+
+
+
+
+    div#productitems{
+    width: 700px;
+    height:400px;
+    position: relative;
+    left: 150px;
+    margin: 40px 120px 50px;
+  }
+
+
+div#products{
+  
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    background: white;
+    right: 340px;
+    padding-top: 20px;
+
+  }
+
+
+div.productimage{
+  width: 600px;
+  height: 400px;
+  padding: 50px 0 0 150px;
+  list-style: none;
+}
+ 
+ .info{
+   width: 50;
+   height:50;
+   position:  absolute;
+   left: 65%;
+   padding: 10px 29px 24px 20px;
+   color:white;
+   font-size: 10px;
+
+ }
+
+
+.info h1{ 
+ color:white;
+}
+
+.info p{
+  padding:0 0 0 0;
+   font-size:10px;
+ 
+}
+
+
+ .description{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  left: 400px;
+  padding: 10px 29px 24px 0px;
+  color: white;
+  font-size: 1em;
+  border-left: 1px #959a9c dashed;
+}
+
+ }
+
+
+.description h3{ 
+ color:black;
+ padding-left: 1em;
+
+}
+
+#price span{ 
+ color:red;
+ padding-left: 1.5em;
+ font-size: 1.2em;
+ text-transform: uppercase;
+}
+
+
+.description p{
+  color: black;
+  font-size:10px;
+  margin: 0px 300px 0px 0px;
+  padding-left: 2.5em;
+}
+
+.items li h4 {
+    margin: 14px 0 0 0;
+    padding: 0 50px;
+
+}
+.items li h3 {
+    font-size: 1.1em;
+    margin: 14px 0 0 0;
+    padding: 0 50px;
+}
+
+
+
+ .purchasestuff{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 600px;
+  bottom: 243px;
+  padding: 32px 37px 36px;
+  font-size: 10px;
+  border-left: 1px #959a9c dashed;
+}
+
+  div#purchaseform{
+ 
+
+
+   }
+
+  div.productvariant{
+
+  } 
+
+  form{
+
+  }
+
+  span{
+  font-size: 1.5em;
+  padding-left: 65px;
+
+  }
+
+  .selector
+  {
+   border-bottom: 1px dashed;
+  border-top: 1px dashed;
+  width: 150px;
+}
+
+  .selector-quality
+  {
+  
+  margin-top:50px;
+  border-bottom: 1px dashed;
+  border-top: 1px dashed;
+  width: 150px;
+}
+
+ .selector-quality span{
+  font-size: 1.5em;
+  padding-left: 45px;
+
+  }
+
+  .buybutton{
+
+  margin: 50px 0 0 5px;
+  
+
+}
+
+  button#add-to-cart{
+      background:  #4C4A43;
+      width:120px;
+      height: 20px;
+  }
+
+  .backbutton{
+      margin: 28px 0 0 20px;
+  font-size: 2em;
+  }
+
+.admin{
+
+   margin:100px 0px 100px 100px;
+}
+
+li#products{
+
+  display: inline-block;
+  margin: 0 100px 0px 0px;
+  padding: 0px 23px 15px 50px;
+}
+
+
